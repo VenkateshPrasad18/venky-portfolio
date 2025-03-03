@@ -40,7 +40,7 @@ function App() {
                 <span className="block mt-2">QA Engineer</span>
               </h1>
               <p className="text-xl text-gray-400">
-                Experienced QA Engineer specializing in Cypress automation testing with expertise in BDD Framework,
+                Experienced QA Engineer specializing in Playwright automation testing with expertise in BDD Framework,
                 API testing, and continuous integration. Passionate about ensuring software quality and delivering
                 exceptional user experiences.
               </p>
@@ -78,8 +78,8 @@ function App() {
             <p className="text-lg text-gray-400 leading-relaxed">
               As a dedicated QA Engineer with extensive experience in Manual End-to-End activities like test plan preparation,
               Test case designing,Bug reporting and Bug tracking,and Expertise in automated testing, I specialize in creating
-              robust test frameworks using Cypress and JavaScript using Mocha. My expertise includes BDD Framework implementation,
-              API testing with Postman and Cypress, and CI/CD integration using Jenkins. I'm passionate about maintaining high
+              robust test frameworks using Playwright and JavaScript using Mocha. My expertise includes BDD Framework implementation,
+              API testing with Postman and Playwright, and CI/CD integration using Jenkins. I'm passionate about maintaining high
               quality standards and implementing efficient testing processes.
             </p>
           </div>
@@ -105,10 +105,10 @@ function App() {
                   <p className="text-gray-400">September <b>2023</b> - Present</p>
                   <p className="mt-4">Collaborated with development and customer teams, worked on
                  handled bugs, groomed backlog, understood requirements, performed manual and automated testing using JavaScript, 
-                 Cypress, and Cucumber. Experienced in BDD, data-driven testing, cross-browser testing, parallel execution, and API testing.
+                 Playwright, and Cucumber. Experienced in BDD, data-driven testing, cross-browser testing, parallel execution, and API testing.
                 developed and debugged test scripts, and contributed to issue resolution.</p>
                 <div className="flex gap-2">
-                <span className="px-3 py-1 bg-cyan-500/20 border border-cyan-500/20  rounded-full text-sm">Cypress</span>
+                <span className="px-3 py-1 bg-cyan-500/20 border border-cyan-500/20  rounded-full text-sm">Playwright</span>
                 <span className="px-3 py-1 bg-cyan-500/20 border border-cyan-500/20 rounded-full text-sm">Javascript</span>
                 <span className="px-3 py-1 bg-cyan-500/20 border border-cyan-500/20 rounded-full text-sm">Mocha</span>
                 <span className="px-3 py-1 bg-cyan-500/20 border border-cyan-500/20 rounded-full text-sm">Node.js</span>
@@ -146,6 +146,7 @@ function App() {
                     { name: 'BDD Framework', icon: <Tool className="w-6 h-6" /> },
                     { name: 'JavaScript', icon: <Code className="w-6 h-6" /> },
                     { name: 'Postman', icon: <Server className="w-6 h-6" /> },
+                    { name: 'Playwright', icon: <Bug className="w-6 h-6" /> },
                     { name: 'API Testing', icon: <Database className="w-6 h-6" /> },
                     { name: 'Node.js', icon: <Server className="w-6 h-6" /> },
                     { name: 'Jenkins', icon: <Tool className="w-6 h-6" /> },
@@ -190,12 +191,12 @@ function App() {
             </div>
             <div className="bg-navy-800 p-6 rounded-lg border border-cyan-500/20 hover:border-cyan-500/50 transition transform hover:scale-105 hover:shadow-lg hover:shadow-cyan-500/20">
               <h3 className="text-xl font-bold text-cyan-400 mb-4">API Testing Framework</h3>
-              <p className="text-gray-300 mb-4">Experienced in API testing using Postman and Cypress for both manual 
+              <p className="text-gray-300 mb-4">Experienced in API testing using Postman and Playwright for both manual 
                 and automated testing. Skilled in validating request-response, status codes, headers, and payloads.
                  Proficient in automating API tests, data-driven testing.</p>
               <div className="flex gap-2">
                 <span className="px-3 py-1 bg-cyan-500/20 border border-cyan-500/20 rounded-full text-sm">Postman</span>
-                <span className="px-3 py-1 bg-cyan-500/20 border border-cyan-500/20 rounded-full text-sm">Cypress</span>
+                <span className="px-3 py-1 bg-cyan-500/20 border border-cyan-500/20 rounded-full text-sm">Playwright</span>
               </div>
             </div>
             <div className="bg-navy-800 p-6 rounded-lg border border-cyan-500/20 hover:border-cyan-500/50 transition transform hover:scale-105 hover:shadow-lg hover:shadow-cyan-500/20">
@@ -204,7 +205,7 @@ function App() {
                 automated testing, validating UI/UX, API responses, and user interactions. Ensured seamless user experience through
                  rigorous functional and regression testing.</p>
               <div className="flex gap-2">
-                <span className="px-3 py-1 bg-cyan-500/20 border border-cyan-500/20  rounded-full text-sm">Cypress</span>
+                <span className="px-3 py-1 bg-cyan-500/20 border border-cyan-500/20  rounded-full text-sm">Playwright</span>
                 <span className="px-3 py-1 bg-cyan-500/20 border border-cyan-500/20 rounded-full text-sm">Javascript</span>
                 <span className="px-3 py-1 bg-cyan-500/20 border border-cyan-500/20 rounded-full text-sm">Mocha</span>
                 <span className="px-3 py-1 bg-cyan-500/20 border border-cyan-500/20 rounded-full text-sm">Node.js</span>
