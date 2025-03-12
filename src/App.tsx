@@ -308,11 +308,11 @@ function App() {
             <div className="space-y-4 mb-8">
               <p className="flex items-center justify-center gap-2 text-lg">
                 <Phone className="text-cyan-400" />
-                <a href="tel:9390531191" className="hover:text-cyan-400 transition">+91 9390531191</a>
+                <a href="tel:9390531191" className="hover:text-cyan-400 transition">+91 8431102445</a>
               </p>
               <p className="flex items-center justify-center gap-2 text-lg">
                 <Mail className="text-cyan-400" />
-                <a href="mailto:venkateshprasad.qa@gmail.com" className="hover:text-cyan-400 transition">venkateshprasad.qa@gmail.com</a>
+                <a href="mailto:venkateshprasad.qa@gmail.com" className="hover:text-cyan-400 transition">venkateshgowda.qa@gmail.com</a>
               </p>
             </div>
             <div className="flex justify-center space-x-8">
