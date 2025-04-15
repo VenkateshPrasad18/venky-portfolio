@@ -61,7 +61,7 @@ function App() {
             </div>
             <div className="relative">
               <img
-                src="public\profile.JPG"
+                src="./profile.JPG"
                 alt="Profile"
                 className="rounded-full w-80 h-80 object-cover mx-auto border-4 border-cyan-500/30 shadow-lg shadow-cyan-500/30 animate-float"
               />
@@ -93,7 +93,7 @@ function App() {
           <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-12">
             <div className="hidden md:block">
               <img
-                src="public\asd.png"
+                src="./asd.png"
                 alt="Quality Assurance"
                 className="rounded-lg"
               />
@@ -291,7 +291,7 @@ function App() {
             </div>
             <div className="hidden md:block">
               <img
-                src="public\qwe.png"
+                src="./qwe.png"
                 alt="Education Journey"
                 className="rounded-lg "
               />
