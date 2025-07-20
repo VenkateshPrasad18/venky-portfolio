@@ -93,10 +93,10 @@ function App() {
                   {nameRevealed}
                   <span className="animate-pulse">|</span>
                 </span>
-                <span className="block mt-2 text-xl sm:text-2xl">QA Engineer</span>
+                <span className="block mt-2 text-xl sm:text-2xl">SDET Engineer</span>
               </h1>
               <p className="text-base sm:text-lg md:text-xl text-gray-400">
-                Experienced QA Engineer specializing in Playwright automation testing with expertise in BDD Framework,
+                Experienced SDET Engineer specializing in Cypress automation testing with expertise in BDD Framework,
                 API testing, and continuous integration. Passionate about ensuring software quality and delivering
                 exceptional user experiences.
               </p>
@@ -106,7 +106,7 @@ function App() {
                 </a>
                 <a
                   href="/path-to-your-resume.pdf"
-                  download="public\Venkatesh_prasad__QA.pdf"
+                  download="./Venkatesh_prasad__QA.pdf"
                   className="border border-cyan-500 px-6 py-2 sm:px-8 sm:py-3 rounded-lg font-semibold hover:bg-cyan-500/10 transition transform hover:scale-105 flex items-center justify-center gap-2"
                 >
                   <Download size={20} />
@@ -131,10 +131,10 @@ function App() {
           <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 md:mb-16 text-cyan-400">About Me</h2>
           <div className="max-w-3xl mx-auto">
             <p className="text-base sm:text-lg text-gray-400 leading-relaxed">
-              As a dedicated QA Engineer with extensive experience in Manual End-to-End activities like test plan preparation,
+              As a dedicated SDET Engineer with extensive experience in Manual End-to-End activities like test plan preparation,
               Test case designing,Bug reporting and Bug tracking,and Expertise in automated testing, I specialize in creating
-              robust test frameworks using Playwright and JavaScript using Mocha. My expertise includes BDD Framework implementation,
-              API testing with Postman and Playwright, and CI/CD integration using GitHub Actions. I'm passionate about maintaining high
+              robust test frameworks using Cypress and JavaScript using Mocha. My expertise includes BDD Framework implementation,
+              API testing with Postman and Cypress, and CI/CD integration using GitHub Actions. I'm passionate about maintaining high
               quality standards and implementing efficient testing processes.
             </p>
           </div>
@@ -156,32 +156,35 @@ function App() {
             <div className="space-y-6 md:space-y-8">
               <div className="relative pl-8 before:content-[''] before:absolute before:left-0 before:top-0 before:bottom-0 before:w-1 before:bg-gradient-to-b before:from-cyan-500 before:to-blue-500">
                 <div className="bg-navy-800 p-4 sm:p-6 rounded-lg border border-cyan-500/20 hover:border-cyan-500/50 transition transform hover:scale-[1.02] hover:shadow-lg hover:shadow-cyan-500/20">
-                  <h3 className="text-lg sm:text-xl font-bold text-cyan-400">QA Automation Engineer</h3>
-                  <p className="text-gray-400 text-sm sm:text-base">September <b>2023</b> - Present</p>
+                  <h3 className="text-lg sm:text-xl font-bold text-cyan-400">SDET</h3>
+                  <p className="text-gray-400 text-sm sm:text-base">May <b>2025</b> - Present</p>
                   <p className="mt-2 sm:mt-4 text-sm sm:text-base">Collaborated with development and customer teams, worked on
                  handled bugs, groomed backlog, understood requirements, performed manual and automated testing using JavaScript, 
-                 Playwright, and Cucumber. Experienced in BDD, data-driven testing, cross-browser testing, parallel execution, and API testing.
+                 Cypress, and Cucumber. Experienced in BDD, data-driven testing, cross-browser testing, Database Testing, Back-end Testing and API testing.
                 developed and debugged test scripts, and contributed to issue resolution.</p>
                 <div className="flex flex-wrap gap-2 mt-3">
-                <span className="px-2 py-1 text-xs sm:text-sm bg-cyan-500/20 border border-cyan-500/20 rounded-full">Playwright</span>
                 <span className="px-2 py-1 text-xs sm:text-sm bg-cyan-500/20 border border-cyan-500/20 rounded-full">Cypress</span>
+                <span className="px-2 py-1 text-xs sm:text-sm bg-cyan-500/20 border border-cyan-500/20 rounded-full">Playwright</span>
                 <span className="px-2 py-1 text-xs sm:text-sm bg-cyan-500/20 border border-cyan-500/20 rounded-full">Javascript</span>
                 <span className="px-2 py-1 text-xs sm:text-sm bg-cyan-500/20 border border-cyan-500/20 rounded-full">Mocha</span>
+                <span className="px-2 py-1 text-xs sm:text-sm bg-cyan-500/20 border border-cyan-500/20 rounded-full">Postman</span>
                 <span className="px-2 py-1 text-xs sm:text-sm bg-cyan-500/20 border border-cyan-500/20 rounded-full">Node.js</span>
               </div>
                 </div>
               </div>
               <div className="relative pl-8 before:content-[''] before:absolute before:left-0 before:top-0 before:bottom-0 before:w-1 before:bg-gradient-to-b before:from-blue-500 before:to-purple-500">
                 <div className="bg-navy-800 p-4 sm:p-6 rounded-lg border border-blue-500/20 hover:border-blue-500/50 transition transform hover:scale-[1.02] hover:shadow-lg hover:shadow-blue-500/20">
-                  <h3 className="text-lg sm:text-xl font-bold text-blue-400">Manual Test Engineer</h3>
-                  <p className="text-gray-400 text-sm sm:text-base">May <b>2023</b> - Present</p>
-                  <p className="mt-2 sm:mt-4 text-sm sm:text-base">Involved in all SDLC phases, participated in agile ceremonies,
+                  <h3 className="text-lg sm:text-xl font-bold text-blue-400">QA Engineer</h3>
+                  <p className="text-gray-400 text-sm sm:text-base">May <b>2023</b> - May <b>2025</b></p>
+                  <p className="mt-2 sm:mt-4 text-sm sm:text-base">Experienced in Automation tools like Cypress, JavaScript and involved in all SDLC phases, participated in agile ceremonies,
                  designed test plans and cases, prepared bug reports, monitored front-end and back-end, 
                  reviewed peer test cases, assessed functional requirements, followed up on defects,
                   attended project meetings, and triaged test failures.</p>
                   <div className="flex flex-wrap gap-2 mt-3">
+                <span className="px-2 py-1 text-xs sm:text-sm bg-cyan-500/20 border border-cyan-500/20 rounded-full">Cypress</span>
                 <span className="px-2 py-1 text-xs sm:text-sm bg-cyan-500/20 border border-cyan-500/20 rounded-full">UI Testing</span>
                 <span className="px-2 py-1 text-xs sm:text-sm bg-cyan-500/20 border border-cyan-500/20 rounded-full">API Testing</span>
+                <span className="px-2 py-1 text-xs sm:text-sm bg-cyan-500/20 border border-cyan-500/20 rounded-full">Postman API</span>
                 <span className="px-2 py-1 text-xs sm:text-sm bg-cyan-500/20 border border-cyan-500/20 rounded-full">Bug Reporting</span>
               </div>
                 </div>
@@ -239,37 +242,38 @@ function App() {
           <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 md:mb-16 text-cyan-400">Projects</h2>
           <div className="grid md:grid-cols-3 gap-6 md:gap-8">
             <div className="bg-navy-800 p-4 sm:p-6 rounded-lg border border-cyan-500/20 hover:border-cyan-500/50 transition transform hover:scale-[1.02] hover:shadow-lg hover:shadow-cyan-500/20">
-              <h3 className="text-lg sm:text-xl font-bold text-cyan-400 mb-2 sm:mb-4">E-commerce Testing Suite</h3>
-              <p className="text-gray-300 text-sm sm:text-base mb-3 sm:mb-4">Conducted end-to-end manual testing for an online marketplace buying and selling 
-                construction tools,Safety kits. Verified functionality, usability, and security, reported bugs,
-                 and ensured smooth user experience. Collaborated with developers and stakeholders to improve application quality.
+              <h3 className="text-lg sm:text-xl font-bold text-cyan-400 mb-2 sm:mb-4">Ease Commerce</h3>
+              <p className="text-gray-300 text-sm sm:text-base mb-3 sm:mb-4">CRM Software Web Application where we can simplify the complex Operations in one powerful platform.
+                From warehouse logistics to customer engagement, product handling, task distribution, and seamless returns—our integrated e-commerce CRM software.
+    
               </p>
               <div className="flex flex-wrap gap-2">
-                <span className="px-2 py-1 text-xs sm:text-sm bg-cyan-500/20 rounded-full border border-cyan-500/20">Functional Testing</span>
-                <span className="px-2 py-1 text-xs sm:text-sm bg-cyan-500/20 rounded-full border border-cyan-500/20">Smoke testing</span>
-                <span className="px-2 py-1 text-xs sm:text-sm bg-cyan-500/20 rounded-full border border-cyan-500/20">integration Testing</span>
+                <span className="px-2 py-1 text-xs sm:text-sm bg-cyan-500/20 rounded-full border border-cyan-500/20">Cypress</span>
+                <span className="px-2 py-1 text-xs sm:text-sm bg-cyan-500/20 rounded-full border border-cyan-500/20">Postman API</span>
+                <span className="px-2 py-1 text-xs sm:text-sm bg-cyan-500/20 rounded-full border border-cyan-500/20">BDD-cucumber</span>
+                <span className="px-2 py-1 text-xs sm:text-sm bg-cyan-500/20 rounded-full border border-cyan-500/20">Back-End Testing</span>
               </div>
             </div>
             <div className="bg-navy-800 p-4 sm:p-6 rounded-lg border border-cyan-500/20 hover:border-cyan-500/50 transition transform hover:scale-[1.02] hover:shadow-lg hover:shadow-cyan-500/20">
-              <h3 className="text-lg sm:text-xl font-bold text-cyan-400 mb-2 sm:mb-4">API Testing Framework</h3>
-              <p className="text-gray-300 text-sm sm:text-base mb-3 sm:mb-4">Experienced in API testing using Postman and Playwright for both manual 
-                and automated testing. Skilled in validating request-response, status codes, headers, and payloads.
-                 Proficient in automating API tests, data-driven testing.</p>
+              <h3 className="text-lg sm:text-xl font-bold text-cyan-400 mb-2 sm:mb-4">MPF</h3>
+              <p className="text-gray-300 text-sm sm:text-base mb-3 sm:mb-4">Social media platform for animals where we can share all about our pets,post about pets,
+                Buy or sell pets, and also adopt pets. It is a community-driven platform for pet adoption and discussions.
+                
+                </p>
               <div className="flex flex-wrap gap-2">
+                <span className="px-2 py-1 text-xs sm:text-sm bg-cyan-500/20 border border-cyan-500/20 rounded-full">Cypress</span>
+                <span className="px-2 py-1 text-xs sm:text-sm bg-cyan-500/20 border border-cyan-500/20 rounded-full">Javascript</span>
                 <span className="px-2 py-1 text-xs sm:text-sm bg-cyan-500/20 border border-cyan-500/20 rounded-full">Postman</span>
-                <span className="px-2 py-1 text-xs sm:text-sm bg-cyan-500/20 border border-cyan-500/20 rounded-full">Playwright</span>
               </div>
             </div>
             <div className="bg-navy-800 p-4 sm:p-6 rounded-lg border border-cyan-500/20 hover:border-cyan-500/50 transition transform hover:scale-[1.02] hover:shadow-lg hover:shadow-cyan-500/20">
-              <h3 className="text-lg sm:text-xl font-bold text-cyan-400 mb-2 sm:mb-4">Social Media Webiste</h3>
-              <p className="text-gray-300 text-sm sm:text-base mb-3 sm:mb-4">Worked on a community-driven platform for pet adoption and discussions. Conducted manual and 
-                automated testing, validating UI/UX, API responses, and user interactions. Ensured seamless user experience through
+              <h3 className="text-lg sm:text-xl font-bold text-cyan-400 mb-2 sm:mb-4">ToolsMart</h3>
+              <p className="text-gray-300 text-sm sm:text-base mb-3 sm:mb-4">Platform where we can buy and sell tools. It is a community-driven platform for tools.
+                Conducted manual testing, validating UI/UX, API responses, and user interactions. Ensured seamless user experience through
                  rigorous functional and regression testing.</p>
               <div className="flex flex-wrap gap-2">
-                <span className="px-2 py-1 text-xs sm:text-sm bg-cyan-500/20 border border-cyan-500/20 rounded-full">Playwright</span>
-                <span className="px-2 py-1 text-xs sm:text-sm bg-cyan-500/20 border border-cyan-500/20 rounded-full">Javascript</span>
-                <span className="px-2 py-1 text-xs sm:text-sm bg-cyan-500/20 border border-cyan-500/20 rounded-full">Mocha</span>
-                <span className="px-2 py-1 text-xs sm:text-sm bg-cyan-500/20 border border-cyan-500/20 rounded-full">Node.js</span>
+                <span className="px-2 py-1 text-xs sm:text-sm bg-cyan-500/20 border border-cyan-500/20 rounded-full">Manual Testing</span>
+                <span className="px-2 py-1 text-xs sm:text-sm bg-cyan-500/20 border border-cyan-500/20 rounded-full">Regression Testing</span>
               </div>
             </div>
           </div>
@@ -283,7 +287,7 @@ function App() {
           <div className="grid md:grid-cols-3 gap-6 md:gap-8">
             <div className="bg-navy-800 p-4 sm:p-6 rounded-lg border border-cyan-500/20 hover:border-cyan-500/50 transition transform hover:scale-[1.02] hover:shadow-lg hover:shadow-cyan-500/20">
               <div className="text-center">
-                <h3 className="text-2xl sm:text-3xl font-bold text-cyan-400 mb-1 sm:mb-2">150+</h3>
+                <h3 className="text-2xl sm:text-3xl font-bold text-cyan-400 mb-1 sm:mb-2">500+</h3>
                 <p className="text-gray-300 text-sm sm:text-base">Test Cases Automated</p>
               </div>
               <div className="mt-3 sm:mt-4 text-gray-400 text-xs sm:text-sm">
@@ -291,6 +295,7 @@ function App() {
                   <li>End-to-end test scenarios</li>
                   <li>Integration test cases</li>
                   <li>API test automation</li>
+                  <li>Back-End Testing</li>
                 </ul>
               </div>
             </div>
@@ -388,7 +393,7 @@ function App() {
             </div>
             <br />
             <div className="flex items-center justify-center gap-2 mb-4">
-              <MapPin className="text-cyan-400" size={18} className="sm:w-5 sm:h-5" />
+              <MapPin className="text-cyan-400 sm:w-5 sm:h-5" size={18} />
               <span className="text-gray-400 text-sm sm:text-base">Bangalore, India</span>
             </div>
           </div>
