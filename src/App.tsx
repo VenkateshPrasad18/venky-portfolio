@@ -46,7 +46,7 @@ function App() {
             <a href="#home" className="text-2xl sm:text-3xl font-bold bg-gradient-to-r from-cyan-500 to-blue-500 text-transparent bg-clip-text hover:scale-105 transition">
               Venkatesh
             </a>
-            
+
             {/* Desktop Navigation */}
             <div className="hidden md:flex space-x-4 lg:space-x-8">
               <a href="#home" className="hover:text-cyan-400 transition">Home</a>
@@ -57,16 +57,16 @@ function App() {
               <a href="#education" className="hover:text-cyan-400 transition">Education</a>
               <a href="#contact" className="hover:text-cyan-400 transition">Contact</a>
             </div>
-            
+
             {/* Mobile Menu Button */}
-            <button 
+            <button
               className="md:hidden text-gray-300 focus:outline-none"
               onClick={() => setIsMenuOpen(!isMenuOpen)}
             >
               {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
             </button>
           </div>
-          
+
           {/* Mobile Navigation */}
           {isMenuOpen && (
             <div className="md:hidden mt-4 pb-4 space-y-3">
@@ -106,7 +106,7 @@ function App() {
                 </a>
                 <a
                   href="/path-to-your-resume.pdf"
-                  download="./Venkatesh_prasad__QA.pdf"
+                  download="./Venkateshprasad_SDET.pdf"
                   className="border border-cyan-500 px-6 py-2 sm:px-8 sm:py-3 rounded-lg font-semibold hover:bg-cyan-500/10 transition transform hover:scale-105 flex items-center justify-center gap-2"
                 >
                   <Download size={20} />
@@ -159,17 +159,17 @@ function App() {
                   <h3 className="text-lg sm:text-xl font-bold text-cyan-400">SDET</h3>
                   <p className="text-gray-400 text-sm sm:text-base">May <b>2025</b> - Present</p>
                   <p className="mt-2 sm:mt-4 text-sm sm:text-base">Collaborated with development and customer teams, worked on
-                 handled bugs, groomed backlog, understood requirements, performed manual and automated testing using JavaScript, 
-                 Cypress, and Cucumber. Experienced in BDD, data-driven testing, cross-browser testing, Database Testing, Back-end Testing and API testing.
-                developed and debugged test scripts, and contributed to issue resolution.</p>
-                <div className="flex flex-wrap gap-2 mt-3">
-                <span className="px-2 py-1 text-xs sm:text-sm bg-cyan-500/20 border border-cyan-500/20 rounded-full">Cypress</span>
-                <span className="px-2 py-1 text-xs sm:text-sm bg-cyan-500/20 border border-cyan-500/20 rounded-full">Playwright</span>
-                <span className="px-2 py-1 text-xs sm:text-sm bg-cyan-500/20 border border-cyan-500/20 rounded-full">Javascript</span>
-                <span className="px-2 py-1 text-xs sm:text-sm bg-cyan-500/20 border border-cyan-500/20 rounded-full">Mocha</span>
-                <span className="px-2 py-1 text-xs sm:text-sm bg-cyan-500/20 border border-cyan-500/20 rounded-full">Postman</span>
-                <span className="px-2 py-1 text-xs sm:text-sm bg-cyan-500/20 border border-cyan-500/20 rounded-full">Node.js</span>
-              </div>
+                    handled bugs, groomed backlog, understood requirements, performed manual and automated testing using JavaScript,
+                    Cypress, and Cucumber. Experienced in BDD, data-driven testing, cross-browser testing, Database Testing, Back-end Testing and API testing.
+                    developed and debugged test scripts, and contributed to issue resolution.</p>
+                  <div className="flex flex-wrap gap-2 mt-3">
+                    <span className="px-2 py-1 text-xs sm:text-sm bg-cyan-500/20 border border-cyan-500/20 rounded-full">Cypress</span>
+                    <span className="px-2 py-1 text-xs sm:text-sm bg-cyan-500/20 border border-cyan-500/20 rounded-full">Playwright</span>
+                    <span className="px-2 py-1 text-xs sm:text-sm bg-cyan-500/20 border border-cyan-500/20 rounded-full">Javascript</span>
+                    <span className="px-2 py-1 text-xs sm:text-sm bg-cyan-500/20 border border-cyan-500/20 rounded-full">Mocha</span>
+                    <span className="px-2 py-1 text-xs sm:text-sm bg-cyan-500/20 border border-cyan-500/20 rounded-full">Postman</span>
+                    <span className="px-2 py-1 text-xs sm:text-sm bg-cyan-500/20 border border-cyan-500/20 rounded-full">Node.js</span>
+                  </div>
                 </div>
               </div>
               <div className="relative pl-8 before:content-[''] before:absolute before:left-0 before:top-0 before:bottom-0 before:w-1 before:bg-gradient-to-b before:from-blue-500 before:to-purple-500">
@@ -177,16 +177,16 @@ function App() {
                   <h3 className="text-lg sm:text-xl font-bold text-blue-400">QA Engineer</h3>
                   <p className="text-gray-400 text-sm sm:text-base">May <b>2023</b> - May <b>2025</b></p>
                   <p className="mt-2 sm:mt-4 text-sm sm:text-base">Experienced in Automation tools like Cypress, JavaScript and involved in all SDLC phases, participated in agile ceremonies,
-                 designed test plans and cases, prepared bug reports, monitored front-end and back-end, 
-                 reviewed peer test cases, assessed functional requirements, followed up on defects,
-                  attended project meetings, and triaged test failures.</p>
+                    designed test plans and cases, prepared bug reports, monitored front-end and back-end,
+                    reviewed peer test cases, assessed functional requirements, followed up on defects,
+                    attended project meetings, and triaged test failures.</p>
                   <div className="flex flex-wrap gap-2 mt-3">
-                <span className="px-2 py-1 text-xs sm:text-sm bg-cyan-500/20 border border-cyan-500/20 rounded-full">Cypress</span>
-                <span className="px-2 py-1 text-xs sm:text-sm bg-cyan-500/20 border border-cyan-500/20 rounded-full">UI Testing</span>
-                <span className="px-2 py-1 text-xs sm:text-sm bg-cyan-500/20 border border-cyan-500/20 rounded-full">API Testing</span>
-                <span className="px-2 py-1 text-xs sm:text-sm bg-cyan-500/20 border border-cyan-500/20 rounded-full">Postman API</span>
-                <span className="px-2 py-1 text-xs sm:text-sm bg-cyan-500/20 border border-cyan-500/20 rounded-full">Bug Reporting</span>
-              </div>
+                    <span className="px-2 py-1 text-xs sm:text-sm bg-cyan-500/20 border border-cyan-500/20 rounded-full">Cypress</span>
+                    <span className="px-2 py-1 text-xs sm:text-sm bg-cyan-500/20 border border-cyan-500/20 rounded-full">UI Testing</span>
+                    <span className="px-2 py-1 text-xs sm:text-sm bg-cyan-500/20 border border-cyan-500/20 rounded-full">API Testing</span>
+                    <span className="px-2 py-1 text-xs sm:text-sm bg-cyan-500/20 border border-cyan-500/20 rounded-full">Postman API</span>
+                    <span className="px-2 py-1 text-xs sm:text-sm bg-cyan-500/20 border border-cyan-500/20 rounded-full">Bug Reporting</span>
+                  </div>
                 </div>
               </div>
             </div>
@@ -235,8 +235,8 @@ function App() {
           </div>
         </div>
       </section>
-  
-     {/* Projects Section */}
+
+      {/* Projects Section */}
       <section id="projects" className="py-16 md:py-20">
         <div className="container mx-auto px-4 sm:px-6">
           <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 md:mb-16 text-cyan-400">Projects</h2>
@@ -245,7 +245,7 @@ function App() {
               <h3 className="text-lg sm:text-xl font-bold text-cyan-400 mb-2 sm:mb-4">Ease Commerce</h3>
               <p className="text-gray-300 text-sm sm:text-base mb-3 sm:mb-4">CRM Software Web Application where we can simplify the complex Operations in one powerful platform.
                 From warehouse logistics to customer engagement, product handling, task distribution, and seamless returns—our integrated e-commerce CRM software.
-    
+
               </p>
               <div className="flex flex-wrap gap-2">
                 <span className="px-2 py-1 text-xs sm:text-sm bg-cyan-500/20 rounded-full border border-cyan-500/20">Cypress</span>
@@ -258,8 +258,8 @@ function App() {
               <h3 className="text-lg sm:text-xl font-bold text-cyan-400 mb-2 sm:mb-4">MPF</h3>
               <p className="text-gray-300 text-sm sm:text-base mb-3 sm:mb-4">Social media platform for animals where we can share all about our pets,post about pets,
                 Buy or sell pets, and also adopt pets. It is a community-driven platform for pet adoption and discussions.
-                
-                </p>
+
+              </p>
               <div className="flex flex-wrap gap-2">
                 <span className="px-2 py-1 text-xs sm:text-sm bg-cyan-500/20 border border-cyan-500/20 rounded-full">Cypress</span>
                 <span className="px-2 py-1 text-xs sm:text-sm bg-cyan-500/20 border border-cyan-500/20 rounded-full">Javascript</span>
@@ -270,7 +270,7 @@ function App() {
               <h3 className="text-lg sm:text-xl font-bold text-cyan-400 mb-2 sm:mb-4">ToolsMart</h3>
               <p className="text-gray-300 text-sm sm:text-base mb-3 sm:mb-4">Platform where we can buy and sell tools. It is a community-driven platform for tools.
                 Conducted manual testing, validating UI/UX, API responses, and user interactions. Ensured seamless user experience through
-                 rigorous functional and regression testing.</p>
+                rigorous functional and regression testing.</p>
               <div className="flex flex-wrap gap-2">
                 <span className="px-2 py-1 text-xs sm:text-sm bg-cyan-500/20 border border-cyan-500/20 rounded-full">Manual Testing</span>
                 <span className="px-2 py-1 text-xs sm:text-sm bg-cyan-500/20 border border-cyan-500/20 rounded-full">Regression Testing</span>
