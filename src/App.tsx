@@ -105,8 +105,8 @@ function App() {
                   Contact Me
                 </a>
                 <a
-                  href="/path-to-your-resume.pdf"
-                  download="project/public/Venkateshprasad_SDET.pdf"
+                  href="/Venkateshprasad_SDET.pdf"
+                  download="Venkateshprasad_SDET.pdf"
                   className="border border-cyan-500 px-6 py-2 sm:px-8 sm:py-3 rounded-lg font-semibold hover:bg-cyan-500/10 transition transform hover:scale-105 flex items-center justify-center gap-2"
                 >
                   <Download size={20} />
